@@ -21,7 +21,6 @@ function clearInterface() {
 
 function createCountryEntry(country) {
   clearInterface();
-  console.log(countryInfo);
   const div = document.createElement('div');
   div.className = 'country';
   div.innerHTML = `
